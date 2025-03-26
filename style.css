@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    padding: 0 30px;
+    border-top: 10px solid black;
+    border-bottom: 10px solid black;
+    border-right: 20px solid black;
+    border-left: 20px solid black;
+}
+
+header{
+    padding: 30px 0;
+}
+
+.container{
+    display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	width: 50%;
+    gap: 2rem;
+    justify-items: center;
+    padding-bottom: 20px;
+}
+
+.box{
+    padding: 30px;
+    color: white;
+    width: 300px;
+    height: 200px;
+    border: 2px solid #000;
+    background-color: #000;
+    border-radius: 5px;
+}
+
+.selected{
+    border-color: aqua;
+    background-color: #313131;
+}
+
+.hidden{
+    visibility: hidden;
+    display: none;
+}
